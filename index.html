@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<header>	
+<title>Assignment Module 2</title>
+<style>
+* { box-sizing: border-box;
+	border: 0px;
+	padding: 0px;
+	margin: 0px;
+  }
+ body {}
+ @media (min-width: 992px){.box1, .box2, .box3 {
+ 	width: 33.33%;}
+	}
+ @media (min-width: 768px) and (max-width: 991px){
+ 	.box1, .box2 {width: 50%;}
+ 	.box3, {width: 100%;}
+ 	}
+ @media (max-width: 767px){
+ 	.box1, .box2, .box3 {width: 100%;}
+ 	}
+.box1, .box2, .box3 {height: 250px; float: left;}
+h1 {color: black; text-align: center ; margin-top: 20px;}
+.section1, .section2, .section3 {height: 230px; background-color: grey; border: 1px solid black; position: relative; margin: 10px; }
+.row {position: relative; top: 50px;}
+section div {width: 90px; height: 25px; border: 1px solid black; text-align: center; position: absolute; top: 0px; right: 0px;}
+.smallbox1{background-color: purple;}
+.smallbox2{background-color: orange;}
+.smallbox3{background-color: pink;}
+p {margin:5px; position: relative; top:35px;}
+</style>
+</header>
+<body>
+	<h1>Our Menu</h1>
+	<div class="row">
+		<div class="box1">
+		<section class="section1"><p>Spacing: Pay attention to the spacing shown in the mockup illustrations. Note the spacing between sections (both horizontal and vertical). Note the horizontal spacing between the edges of the section and the edges of the browser window. Also, note the spacing between the dummy text in each section and the edges of the section</p><div class="smallbox1">Chicken</div></section>
+		</div>
+		<div class="box1">
+		<section class="section2"><p>Spacing: Pay attention to the spacing shown in the mockup illustrations. Note the spacing between sections (both horizontal and vertical). Note the horizontal spacing between the edges of the section and the edges of the browser window. Also, note the spacing between the dummy text in each section and the edges of the section</p><div class="smallbox2">Beef</div></section>
+		</div>
+		<div class="box3">
+		<section class="section3"><p>Spacing: Pay attention to the spacing shown in the mockup illustrations. Note the spacing between sections (both horizontal and vertical). Note the horizontal spacing between the edges of the section and the edges of the browser window. Also, note the spacing between the dummy text in each section and the edges of the section</p><div class="smallbox3">Sushi</div></section>
+		</div>
+	</div>
+</body>
+</html>
